@@ -1,0 +1,61 @@
+2024-05-05 15:59:56,613 - root - INFO - [<Thread(Thread-5 (file_download), initial)>, <Thread(Thread-6 (file_download), initial)>, <Thread(Thread-7 (file_download), initial)>]
+2024-05-05 15:59:56,643 - root - INFO - This is start of Multithreading
+2024-05-05 15:59:56,644 - root - INFO - This is start of file_download function
+2024-05-05 15:59:56,645 - root - INFO - This is start of file_download function
+2024-05-05 15:59:56,647 - root - INFO - This is start of file_download function
+2024-05-05 15:59:56,647 - root - INFO - All Data Downloaded Successfully
+2024-05-05 15:59:56,648 - root - INFO - This is end of Multithreading
+2024-05-05 15:59:56,662 - root - INFO - This is start of normal looping method
+2024-05-05 15:59:56,662 - root - INFO - This is start of file_download function
+2024-05-05 16:00:02,294 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2012%20-%2013%20February%202023/Assignment12Log.txt download successfully and saved as data1.txt
+2024-05-05 16:00:02,295 - root - INFO - This is end of file_download function
+2024-05-05 16:00:02,543 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2012%20-%2013%20February%202023/Assignment12Log.txt download successfully and saved as data1.txt
+2024-05-05 16:00:02,543 - root - INFO - This is end of file_download function
+2024-05-05 16:00:02,545 - root - INFO - This is start of file_download function
+2024-05-05 16:00:02,639 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2010%20-%20%2010%20February%202023/students.txt download successfully and saved as data3.txt
+2024-05-05 16:00:02,639 - root - INFO - This is end of file_download function
+2024-05-05 16:00:02,934 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2011%20-%2012%20February%202023/TryExceptLog.txt download successfully and saved as data2.txt
+2024-05-05 16:00:02,934 - root - INFO - This is end of file_download function
+2024-05-05 16:00:02,934 - root - INFO - This is start of file_download function
+2024-05-05 16:00:03,084 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2010%20-%20%2010%20February%202023/students.txt download successfully and saved as data3.txt
+2024-05-05 16:00:03,084 - root - INFO - This is end of file_download function
+2024-05-05 16:00:03,084 - root - INFO - All Files Download successfully
+2024-05-05 16:00:03,084 - root - INFO - This is end of normal looping method
+2024-05-05 16:00:03,166 - root - INFO - Currently active threads are : 7
+2024-05-05 16:00:03,169 - root - INFO - File from url https://raw.githubusercontent.com/utkarshg1/PWSkills-Assignments/main/Assignment%2011%20-%2012%20February%202023/TryExceptLog.txt download successfully and saved as data2.txt
+2024-05-05 16:00:03,169 - root - INFO - This is end of file_download function
+2024-05-05 16:00:03,191 - root - INFO - Current thread is : <_MainThread(MainThread, started 67036)>
+2024-05-05 16:00:03,216 - root - INFO - List of all active threads is : [<_MainThread(MainThread, started 67036)>, <Thread(IOPub, started daemon 67892)>, <Heartbeat(Heartbeat, started daemon 67896)>, <ControlThread(Control, started daemon 67912)>, <HistorySavingThread(IPythonHistorySavingThread, started 67916)>, <ParentPollerWindows(Thread-4, started daemon 67924)>]
+2024-05-05 16:00:03,233 - root - INFO - run() Command executed
+2024-05-05 16:00:03,254 - root - INFO - Counter Value : 0
+2024-05-05 16:00:03,255 - root - INFO - Counter Value : 1
+2024-05-05 16:00:03,255 - root - INFO - Counter Value : 2
+2024-05-05 16:00:03,255 - root - INFO - Counter Value : 3
+2024-05-05 16:00:03,255 - root - INFO - Counter Value : 4
+2024-05-05 16:00:03,255 - root - INFO - Counter Value : 5
+2024-05-05 16:00:03,255 - root - INFO - Counter Value : 6
+2024-05-05 16:00:03,255 - root - INFO - Counter Value : 7
+2024-05-05 16:00:03,255 - root - INFO - Counter Value : 8
+2024-05-05 16:00:03,257 - root - INFO - Counter Value : 9
+2024-05-05 16:00:04,259 - root - INFO - Thread Finished
+2024-05-05 16:00:04,316 - root - INFO - thread 2 is alive : False
+2024-05-05 16:00:04,436 - root - INFO - Square of 1 is : 1
+2024-05-05 16:00:04,437 - root - INFO - Square of 2 is : 4
+2024-05-05 16:00:04,437 - root - INFO - Square of 3 is : 9
+2024-05-05 16:00:04,437 - root - INFO - Square of 4 is : 16
+2024-05-05 16:00:04,437 - root - INFO - Square of 5 is : 25
+2024-05-05 16:00:04,437 - root - INFO - Square of 6 is : 36
+2024-05-05 16:00:04,437 - root - INFO - Cube of 7 is : 343
+2024-05-05 16:00:04,437 - root - INFO - Square of 7 is : 49
+2024-05-05 16:00:04,438 - root - INFO - Cube of 8 is : 512
+2024-05-05 16:00:04,438 - root - INFO - Square of 8 is : 64
+2024-05-05 16:00:04,438 - root - INFO - Cube of 9 is : 729
+2024-05-05 16:00:04,438 - root - INFO - Square of 9 is : 81
+2024-05-05 16:00:04,438 - root - INFO - Cube of 10 is : 1000
+2024-05-05 16:00:04,439 - root - INFO - Square of 10 is : 100
+2024-05-05 16:00:04,439 - root - INFO - Cube of 11 is : 1331
+2024-05-05 16:00:04,439 - root - INFO - Cube of 12 is : 1728
+2024-05-05 16:00:04,439 - root - INFO - Cube of 13 is : 2197
+2024-05-05 16:00:04,439 - root - INFO - Cube of 14 is : 2744
+2024-05-05 16:00:04,439 - root - INFO - Cube of 15 is : 3375
+2024-05-05 16:00:04,440 - root - INFO - Cube of 16 is : 4096
