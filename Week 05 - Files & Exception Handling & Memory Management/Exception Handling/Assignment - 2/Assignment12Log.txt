@@ -1,0 +1,779 @@
+2024-05-05 15:45:22,570 - root - INFO - This is starting of process_transaction definition.
+2024-05-05 15:45:22,571 - root - INFO - Transaction is valid with amount : 500
+2024-05-05 15:45:22,571 - root - INFO - Try Block executed
+2024-05-05 15:45:22,658 - root - INFO - This is starting of process_transaction definition.
+2024-05-05 15:45:22,658 - root - INFO - Transaction is valid with amount : 1000
+2024-05-05 15:45:22,658 - root - INFO - Try Block executed
+2024-05-05 15:45:22,881 - root - INFO - This is starting of process_transaction definition.
+2024-05-05 15:45:22,881 - root - ERROR - Exception Occured Transaction amount Exceeded the limit
+2024-05-05 15:45:22,881 - root - INFO - Transaction of Amount : 2000 Exceeded the limit 1000
+2024-05-05 15:45:22,882 - root - ERROR - Transaction Limit Exceeded , Exception : Transaction limit exceeded
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\714291067.py", line 12, in process_transaction
+    raise TransactionLimitExceeded("Transaction limit exceeded", amount, limit)
+TransactionLimitExceeded: Transaction limit exceeded
+2024-05-05 15:45:23,062 - root - INFO - Exception
+2024-05-05 15:45:23,062 - root - INFO -  ArithmeticError
+2024-05-05 15:45:23,062 - root - INFO -   FloatingPointError
+2024-05-05 15:45:23,062 - root - INFO - Subclass: <class 'FloatingPointError'>,level:1
+2024-05-05 15:45:23,062 - root - INFO -   OverflowError
+2024-05-05 15:45:23,063 - root - INFO - Subclass: <class 'OverflowError'>,level:1
+2024-05-05 15:45:23,063 - root - INFO -   ZeroDivisionError
+2024-05-05 15:45:23,063 - root - INFO -    DivisionByZero
+2024-05-05 15:45:23,063 - root - INFO - Subclass: <class 'decimal.DivisionByZero'>,level:2
+2024-05-05 15:45:23,063 - root - INFO -    DivisionUndefined
+2024-05-05 15:45:23,063 - root - INFO - Subclass: <class 'decimal.DivisionUndefined'>,level:2
+2024-05-05 15:45:23,063 - root - INFO - Subclass: <class 'ZeroDivisionError'>,level:1
+2024-05-05 15:45:23,063 - root - INFO -   DecimalException
+2024-05-05 15:45:23,063 - root - INFO -    Clamped
+2024-05-05 15:45:23,063 - root - INFO - Subclass: <class 'decimal.Clamped'>,level:2
+2024-05-05 15:45:23,063 - root - INFO -    Rounded
+2024-05-05 15:45:23,063 - root - INFO -     Underflow
+2024-05-05 15:45:23,063 - root - INFO - Subclass: <class 'decimal.Underflow'>,level:3
+2024-05-05 15:45:23,064 - root - INFO -     Overflow
+2024-05-05 15:45:23,064 - root - INFO - Subclass: <class 'decimal.Overflow'>,level:3
+2024-05-05 15:45:23,064 - root - INFO - Subclass: <class 'decimal.Rounded'>,level:2
+2024-05-05 15:45:23,064 - root - INFO -    Inexact
+2024-05-05 15:45:23,064 - root - INFO -     Underflow
+2024-05-05 15:45:23,064 - root - INFO - Subclass: <class 'decimal.Underflow'>,level:3
+2024-05-05 15:45:23,064 - root - INFO -     Overflow
+2024-05-05 15:45:23,064 - root - INFO - Subclass: <class 'decimal.Overflow'>,level:3
+2024-05-05 15:45:23,064 - root - INFO - Subclass: <class 'decimal.Inexact'>,level:2
+2024-05-05 15:45:23,064 - root - INFO -    Subnormal
+2024-05-05 15:45:23,064 - root - INFO -     Underflow
+2024-05-05 15:45:23,064 - root - INFO - Subclass: <class 'decimal.Underflow'>,level:3
+2024-05-05 15:45:23,064 - root - INFO - Subclass: <class 'decimal.Subnormal'>,level:2
+2024-05-05 15:45:23,064 - root - INFO -    DivisionByZero
+2024-05-05 15:45:23,064 - root - INFO - Subclass: <class 'decimal.DivisionByZero'>,level:2
+2024-05-05 15:45:23,065 - root - INFO -    FloatOperation
+2024-05-05 15:45:23,065 - root - INFO - Subclass: <class 'decimal.FloatOperation'>,level:2
+2024-05-05 15:45:23,065 - root - INFO -    InvalidOperation
+2024-05-05 15:45:23,065 - root - INFO -     ConversionSyntax
+2024-05-05 15:45:23,065 - root - INFO - Subclass: <class 'decimal.ConversionSyntax'>,level:3
+2024-05-05 15:45:23,065 - root - INFO -     DivisionImpossible
+2024-05-05 15:45:23,065 - root - INFO - Subclass: <class 'decimal.DivisionImpossible'>,level:3
+2024-05-05 15:45:23,065 - root - INFO -     DivisionUndefined
+2024-05-05 15:45:23,065 - root - INFO - Subclass: <class 'decimal.DivisionUndefined'>,level:3
+2024-05-05 15:45:23,066 - root - INFO -     InvalidContext
+2024-05-05 15:45:23,066 - root - INFO - Subclass: <class 'decimal.InvalidContext'>,level:3
+2024-05-05 15:45:23,066 - root - INFO - Subclass: <class 'decimal.InvalidOperation'>,level:2
+2024-05-05 15:45:23,067 - root - INFO - Subclass: <class 'decimal.DecimalException'>,level:1
+2024-05-05 15:45:23,067 - root - INFO - Subclass: <class 'ArithmeticError'>,level:0
+2024-05-05 15:45:23,067 - root - INFO -  AssertionError
+2024-05-05 15:45:23,067 - root - INFO - Subclass: <class 'AssertionError'>,level:0
+2024-05-05 15:45:23,067 - root - INFO -  AttributeError
+2024-05-05 15:45:23,067 - root - INFO -   FrozenInstanceError
+2024-05-05 15:45:23,067 - root - INFO - Subclass: <class 'dataclasses.FrozenInstanceError'>,level:1
+2024-05-05 15:45:23,067 - root - INFO - Subclass: <class 'AttributeError'>,level:0
+2024-05-05 15:45:23,067 - root - INFO -  BufferError
+2024-05-05 15:45:23,068 - root - INFO - Subclass: <class 'BufferError'>,level:0
+2024-05-05 15:45:23,068 - root - INFO -  EOFError
+2024-05-05 15:45:23,068 - root - INFO -   IncompleteReadError
+2024-05-05 15:45:23,068 - root - INFO - Subclass: <class 'asyncio.exceptions.IncompleteReadError'>,level:1
+2024-05-05 15:45:23,068 - root - INFO - Subclass: <class 'EOFError'>,level:0
+2024-05-05 15:45:23,068 - root - INFO -  ImportError
+2024-05-05 15:45:23,068 - root - INFO -   ModuleNotFoundError
+2024-05-05 15:45:23,068 - root - INFO -    PackageNotFoundError
+2024-05-05 15:45:23,068 - root - INFO - Subclass: <class 'importlib.metadata.PackageNotFoundError'>,level:2
+2024-05-05 15:45:23,068 - root - INFO - Subclass: <class 'ModuleNotFoundError'>,level:1
+2024-05-05 15:45:23,068 - root - INFO -   ZipImportError
+2024-05-05 15:45:23,068 - root - INFO - Subclass: <class 'zipimport.ZipImportError'>,level:1
+2024-05-05 15:45:23,068 - root - INFO - Subclass: <class 'ImportError'>,level:0
+2024-05-05 15:45:23,069 - root - INFO -  LookupError
+2024-05-05 15:45:23,069 - root - INFO -   IndexError
+2024-05-05 15:45:23,069 - root - INFO - Subclass: <class 'IndexError'>,level:1
+2024-05-05 15:45:23,069 - root - INFO -   KeyError
+2024-05-05 15:45:23,069 - root - INFO -    NoSuchKernel
+2024-05-05 15:45:23,069 - root - INFO - Subclass: <class 'jupyter_client.kernelspec.NoSuchKernel'>,level:2
+2024-05-05 15:45:23,069 - root - INFO -    UnknownBackend
+2024-05-05 15:45:23,069 - root - INFO - Subclass: <class 'IPython.terminal.pt_inputhooks.UnknownBackend'>,level:2
+2024-05-05 15:45:23,069 - root - INFO - Subclass: <class 'KeyError'>,level:1
+2024-05-05 15:45:23,069 - root - INFO -   CodecRegistryError
+2024-05-05 15:45:23,069 - root - INFO - Subclass: <class 'encodings.CodecRegistryError'>,level:1
+2024-05-05 15:45:23,069 - root - INFO - Subclass: <class 'LookupError'>,level:0
+2024-05-05 15:45:23,069 - root - INFO -  MemoryError
+2024-05-05 15:45:23,070 - root - INFO - Subclass: <class 'MemoryError'>,level:0
+2024-05-05 15:45:23,070 - root - INFO -  NameError
+2024-05-05 15:45:23,070 - root - INFO -   UnboundLocalError
+2024-05-05 15:45:23,070 - root - INFO - Subclass: <class 'UnboundLocalError'>,level:1
+2024-05-05 15:45:23,070 - root - INFO - Subclass: <class 'NameError'>,level:0
+2024-05-05 15:45:23,070 - root - INFO -  OSError
+2024-05-05 15:45:23,070 - root - INFO -   BlockingIOError
+2024-05-05 15:45:23,070 - root - INFO - Subclass: <class 'BlockingIOError'>,level:1
+2024-05-05 15:45:23,070 - root - INFO -   ChildProcessError
+2024-05-05 15:45:23,070 - root - INFO - Subclass: <class 'ChildProcessError'>,level:1
+2024-05-05 15:45:23,070 - root - INFO -   ConnectionError
+2024-05-05 15:45:23,070 - root - INFO -    BrokenPipeError
+2024-05-05 15:45:23,070 - root - INFO - Subclass: <class 'BrokenPipeError'>,level:2
+2024-05-05 15:45:23,070 - root - INFO -    ConnectionAbortedError
+2024-05-05 15:45:23,071 - root - INFO - Subclass: <class 'ConnectionAbortedError'>,level:2
+2024-05-05 15:45:23,071 - root - INFO -    ConnectionRefusedError
+2024-05-05 15:45:23,071 - root - INFO - Subclass: <class 'ConnectionRefusedError'>,level:2
+2024-05-05 15:45:23,071 - root - INFO -    ConnectionResetError
+2024-05-05 15:45:23,071 - root - INFO -     RemoteDisconnected
+2024-05-05 15:45:23,071 - root - INFO - Subclass: <class 'http.client.RemoteDisconnected'>,level:3
+2024-05-05 15:45:23,071 - root - INFO - Subclass: <class 'ConnectionResetError'>,level:2
+2024-05-05 15:45:23,071 - root - INFO - Subclass: <class 'ConnectionError'>,level:1
+2024-05-05 15:45:23,071 - root - INFO -   FileExistsError
+2024-05-05 15:45:23,071 - root - INFO - Subclass: <class 'FileExistsError'>,level:1
+2024-05-05 15:45:23,071 - root - INFO -   FileNotFoundError
+2024-05-05 15:45:23,071 - root - INFO - Subclass: <class 'FileNotFoundError'>,level:1
+2024-05-05 15:45:23,071 - root - INFO -   InterruptedError
+2024-05-05 15:45:23,072 - root - INFO -    InterruptedSystemCall
+2024-05-05 15:45:23,072 - root - INFO - Subclass: <class 'zmq.error.InterruptedSystemCall'>,level:2
+2024-05-05 15:45:23,072 - root - INFO - Subclass: <class 'InterruptedError'>,level:1
+2024-05-05 15:45:23,072 - root - INFO -   IsADirectoryError
+2024-05-05 15:45:23,072 - root - INFO - Subclass: <class 'IsADirectoryError'>,level:1
+2024-05-05 15:45:23,072 - root - INFO -   NotADirectoryError
+2024-05-05 15:45:23,072 - root - INFO - Subclass: <class 'NotADirectoryError'>,level:1
+2024-05-05 15:45:23,072 - root - INFO -   PermissionError
+2024-05-05 15:45:23,072 - root - INFO - Subclass: <class 'PermissionError'>,level:1
+2024-05-05 15:45:23,073 - root - INFO -   ProcessLookupError
+2024-05-05 15:45:23,073 - root - INFO - Subclass: <class 'ProcessLookupError'>,level:1
+2024-05-05 15:45:23,073 - root - INFO -   TimeoutError
+2024-05-05 15:45:23,073 - root - INFO - Subclass: <class 'TimeoutError'>,level:1
+2024-05-05 15:45:23,073 - root - INFO -   UnsupportedOperation
+2024-05-05 15:45:23,073 - root - INFO - Subclass: <class 'io.UnsupportedOperation'>,level:1
+2024-05-05 15:45:23,073 - root - INFO -   herror
+2024-05-05 15:45:23,073 - root - INFO - Subclass: <class 'socket.herror'>,level:1
+2024-05-05 15:45:23,073 - root - INFO -   gaierror
+2024-05-05 15:45:23,073 - root - INFO - Subclass: <class 'socket.gaierror'>,level:1
+2024-05-05 15:45:23,074 - root - INFO -   SSLError
+2024-05-05 15:45:23,074 - root - INFO -    SSLCertVerificationError
+2024-05-05 15:45:23,074 - root - INFO - Subclass: <class 'ssl.SSLCertVerificationError'>,level:2
+2024-05-05 15:45:23,074 - root - INFO -    SSLZeroReturnError
+2024-05-05 15:45:23,074 - root - INFO - Subclass: <class 'ssl.SSLZeroReturnError'>,level:2
+2024-05-05 15:45:23,074 - root - INFO -    SSLWantWriteError
+2024-05-05 15:45:23,074 - root - INFO - Subclass: <class 'ssl.SSLWantWriteError'>,level:2
+2024-05-05 15:45:23,074 - root - INFO -    SSLWantReadError
+2024-05-05 15:45:23,074 - root - INFO - Subclass: <class 'ssl.SSLWantReadError'>,level:2
+2024-05-05 15:45:23,074 - root - INFO -    SSLSyscallError
+2024-05-05 15:45:23,074 - root - INFO - Subclass: <class 'ssl.SSLSyscallError'>,level:2
+2024-05-05 15:45:23,074 - root - INFO -    SSLEOFError
+2024-05-05 15:45:23,074 - root - INFO - Subclass: <class 'ssl.SSLEOFError'>,level:2
+2024-05-05 15:45:23,075 - root - INFO - Subclass: <class 'ssl.SSLError'>,level:1
+2024-05-05 15:45:23,075 - root - INFO -   Error
+2024-05-05 15:45:23,075 - root - INFO -    SameFileError
+2024-05-05 15:45:23,075 - root - INFO - Subclass: <class 'shutil.SameFileError'>,level:2
+2024-05-05 15:45:23,075 - root - INFO - Subclass: <class 'shutil.Error'>,level:1
+2024-05-05 15:45:23,075 - root - INFO -   SpecialFileError
+2024-05-05 15:45:23,075 - root - INFO - Subclass: <class 'shutil.SpecialFileError'>,level:1
+2024-05-05 15:45:23,075 - root - INFO -   ExecError
+2024-05-05 15:45:23,075 - root - INFO - Subclass: <class 'shutil.ExecError'>,level:1
+2024-05-05 15:45:23,075 - root - INFO -   ReadError
+2024-05-05 15:45:23,075 - root - INFO - Subclass: <class 'shutil.ReadError'>,level:1
+2024-05-05 15:45:23,075 - root - INFO -   URLError
+2024-05-05 15:45:23,075 - root - INFO -    HTTPError
+2024-05-05 15:45:23,075 - root - INFO - Subclass: <class 'urllib.error.HTTPError'>,level:2
+2024-05-05 15:45:23,076 - root - INFO -    ContentTooShortError
+2024-05-05 15:45:23,076 - root - INFO - Subclass: <class 'urllib.error.ContentTooShortError'>,level:2
+2024-05-05 15:45:23,076 - root - INFO - Subclass: <class 'urllib.error.URLError'>,level:1
+2024-05-05 15:45:23,076 - root - INFO -   BadGzipFile
+2024-05-05 15:45:23,076 - root - INFO - Subclass: <class 'gzip.BadGzipFile'>,level:1
+2024-05-05 15:45:23,076 - root - INFO - Subclass: <class 'OSError'>,level:0
+2024-05-05 15:45:23,076 - root - INFO -  ReferenceError
+2024-05-05 15:45:23,076 - root - INFO - Subclass: <class 'ReferenceError'>,level:0
+2024-05-05 15:45:23,076 - root - INFO -  RuntimeError
+2024-05-05 15:45:23,076 - root - INFO -   NotImplementedError
+2024-05-05 15:45:23,076 - root - INFO -    ZMQVersionError
+2024-05-05 15:45:23,076 - root - INFO - Subclass: <class 'zmq.error.ZMQVersionError'>,level:2
+2024-05-05 15:45:23,077 - root - INFO -    StdinNotImplementedError
+2024-05-05 15:45:23,077 - root - INFO - Subclass: <class 'IPython.core.error.StdinNotImplementedError'>,level:2
+2024-05-05 15:45:23,077 - root - INFO - Subclass: <class 'NotImplementedError'>,level:1
+2024-05-05 15:45:23,077 - root - INFO -   RecursionError
+2024-05-05 15:45:23,077 - root - INFO - Subclass: <class 'RecursionError'>,level:1
+2024-05-05 15:45:23,077 - root - INFO -   _DeadlockError
+2024-05-05 15:45:23,077 - root - INFO - Subclass: <class '_frozen_importlib._DeadlockError'>,level:1
+2024-05-05 15:45:23,077 - root - INFO -   BrokenBarrierError
+2024-05-05 15:45:23,077 - root - INFO - Subclass: <class 'threading.BrokenBarrierError'>,level:1
+2024-05-05 15:45:23,077 - root - INFO -   BrokenExecutor
+2024-05-05 15:45:23,077 - root - INFO -    BrokenThreadPool
+2024-05-05 15:45:23,077 - root - INFO - Subclass: <class 'concurrent.futures.thread.BrokenThreadPool'>,level:2
+2024-05-05 15:45:23,077 - root - INFO - Subclass: <class 'concurrent.futures._base.BrokenExecutor'>,level:1
+2024-05-05 15:45:23,078 - root - INFO -   SendfileNotAvailableError
+2024-05-05 15:45:23,078 - root - INFO - Subclass: <class 'asyncio.exceptions.SendfileNotAvailableError'>,level:1
+2024-05-05 15:45:23,078 - root - INFO -   BrokenBarrierError
+2024-05-05 15:45:23,078 - root - INFO - Subclass: <class 'asyncio.exceptions.BrokenBarrierError'>,level:1
+2024-05-05 15:45:23,078 - root - INFO -   VariableError
+2024-05-05 15:45:23,078 - root - INFO - Subclass: <class '_pydevd_bundle.pydevd_vars.VariableError'>,level:1
+2024-05-05 15:45:23,078 - root - INFO - Subclass: <class 'RuntimeError'>,level:0
+2024-05-05 15:45:23,078 - root - INFO -  StopAsyncIteration
+2024-05-05 15:45:23,078 - root - INFO - Subclass: <class 'StopAsyncIteration'>,level:0
+2024-05-05 15:45:23,078 - root - INFO -  StopIteration
+2024-05-05 15:45:23,078 - root - INFO - Subclass: <class 'StopIteration'>,level:0
+2024-05-05 15:45:23,078 - root - INFO -  SyntaxError
+2024-05-05 15:45:23,079 - root - INFO -   IndentationError
+2024-05-05 15:45:23,079 - root - INFO -    TabError
+2024-05-05 15:45:23,079 - root - INFO - Subclass: <class 'TabError'>,level:2
+2024-05-05 15:45:23,079 - root - INFO - Subclass: <class 'IndentationError'>,level:1
+2024-05-05 15:45:23,079 - root - INFO - Subclass: <class 'SyntaxError'>,level:0
+2024-05-05 15:45:23,079 - root - INFO -  SystemError
+2024-05-05 15:45:23,079 - root - INFO -   CodecRegistryError
+2024-05-05 15:45:23,080 - root - INFO - Subclass: <class 'encodings.CodecRegistryError'>,level:1
+2024-05-05 15:45:23,080 - root - INFO - Subclass: <class 'SystemError'>,level:0
+2024-05-05 15:45:23,080 - root - INFO -  TypeError
+2024-05-05 15:45:23,080 - root - INFO -   FloatOperation
+2024-05-05 15:45:23,080 - root - INFO - Subclass: <class 'decimal.FloatOperation'>,level:1
+2024-05-05 15:45:23,080 - root - INFO -   MultipartConversionError
+2024-05-05 15:45:23,080 - root - INFO - Subclass: <class 'email.errors.MultipartConversionError'>,level:1
+2024-05-05 15:45:23,080 - root - INFO - Subclass: <class 'TypeError'>,level:0
+2024-05-05 15:45:23,082 - root - INFO -  ValueError
+2024-05-05 15:45:23,083 - root - INFO -   UnicodeError
+2024-05-05 15:45:23,083 - root - INFO -    UnicodeDecodeError
+2024-05-05 15:45:23,083 - root - INFO - Subclass: <class 'UnicodeDecodeError'>,level:2
+2024-05-05 15:45:23,083 - root - INFO -    UnicodeEncodeError
+2024-05-05 15:45:23,083 - root - INFO - Subclass: <class 'UnicodeEncodeError'>,level:2
+2024-05-05 15:45:23,083 - root - INFO -    UnicodeTranslateError
+2024-05-05 15:45:23,083 - root - INFO - Subclass: <class 'UnicodeTranslateError'>,level:2
+2024-05-05 15:45:23,083 - root - INFO - Subclass: <class 'UnicodeError'>,level:1
+2024-05-05 15:45:23,083 - root - INFO -   UnsupportedOperation
+2024-05-05 15:45:23,083 - root - INFO - Subclass: <class 'io.UnsupportedOperation'>,level:1
+2024-05-05 15:45:23,083 - root - INFO -   JSONDecodeError
+2024-05-05 15:45:23,083 - root - INFO - Subclass: <class 'json.decoder.JSONDecodeError'>,level:1
+2024-05-05 15:45:23,083 - root - INFO -   SSLCertVerificationError
+2024-05-05 15:45:23,083 - root - INFO - Subclass: <class 'ssl.SSLCertVerificationError'>,level:1
+2024-05-05 15:45:23,083 - root - INFO -   Error
+2024-05-05 15:45:23,083 - root - INFO - Subclass: <class 'binascii.Error'>,level:1
+2024-05-05 15:45:23,085 - root - INFO -   AddressValueError
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class 'ipaddress.AddressValueError'>,level:1
+2024-05-05 15:45:23,085 - root - INFO -   NetmaskValueError
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class 'ipaddress.NetmaskValueError'>,level:1
+2024-05-05 15:45:23,085 - root - INFO -   UnsupportedDigestmodError
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class '_hashlib.UnsupportedDigestmodError'>,level:1
+2024-05-05 15:45:23,085 - root - INFO -   IllegalMonthError
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class 'calendar.IllegalMonthError'>,level:1
+2024-05-05 15:45:23,085 - root - INFO -   IllegalWeekdayError
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class 'calendar.IllegalWeekdayError'>,level:1
+2024-05-05 15:45:23,085 - root - INFO -   ParserError
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class 'dateutil.parser._parser.ParserError'>,level:1
+2024-05-05 15:45:23,085 - root - INFO -   MessageDefect
+2024-05-05 15:45:23,085 - root - INFO -    NoBoundaryInMultipartDefect
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class 'email.errors.NoBoundaryInMultipartDefect'>,level:2
+2024-05-05 15:45:23,085 - root - INFO -    StartBoundaryNotFoundDefect
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class 'email.errors.StartBoundaryNotFoundDefect'>,level:2
+2024-05-05 15:45:23,085 - root - INFO -    CloseBoundaryNotFoundDefect
+2024-05-05 15:45:23,085 - root - INFO - Subclass: <class 'email.errors.CloseBoundaryNotFoundDefect'>,level:2
+2024-05-05 15:45:23,086 - root - INFO -    FirstHeaderLineIsContinuationDefect
+2024-05-05 15:45:23,086 - root - INFO - Subclass: <class 'email.errors.FirstHeaderLineIsContinuationDefect'>,level:2
+2024-05-05 15:45:23,086 - root - INFO -    MisplacedEnvelopeHeaderDefect
+2024-05-05 15:45:23,086 - root - INFO - Subclass: <class 'email.errors.MisplacedEnvelopeHeaderDefect'>,level:2
+2024-05-05 15:45:23,086 - root - INFO -    MissingHeaderBodySeparatorDefect
+2024-05-05 15:45:23,086 - root - INFO - Subclass: <class 'email.errors.MissingHeaderBodySeparatorDefect'>,level:2
+2024-05-05 15:45:23,086 - root - INFO -    MultipartInvariantViolationDefect
+2024-05-05 15:45:23,086 - root - INFO - Subclass: <class 'email.errors.MultipartInvariantViolationDefect'>,level:2
+2024-05-05 15:45:23,086 - root - INFO -    InvalidMultipartContentTransferEncodingDefect
+2024-05-05 15:45:23,086 - root - INFO - Subclass: <class 'email.errors.InvalidMultipartContentTransferEncodingDefect'>,level:2
+2024-05-05 15:45:23,086 - root - INFO -    UndecodableBytesDefect
+2024-05-05 15:45:23,086 - root - INFO - Subclass: <class 'email.errors.UndecodableBytesDefect'>,level:2
+2024-05-05 15:45:23,086 - root - INFO -    InvalidBase64PaddingDefect
+2024-05-05 15:45:23,086 - root - INFO - Subclass: <class 'email.errors.InvalidBase64PaddingDefect'>,level:2
+2024-05-05 15:45:23,086 - root - INFO -    InvalidBase64CharactersDefect
+2024-05-05 15:45:23,086 - root - INFO - Subclass: <class 'email.errors.InvalidBase64CharactersDefect'>,level:2
+2024-05-05 15:45:23,087 - root - INFO -    InvalidBase64LengthDefect
+2024-05-05 15:45:23,087 - root - INFO - Subclass: <class 'email.errors.InvalidBase64LengthDefect'>,level:2
+2024-05-05 15:45:23,087 - root - INFO -    HeaderDefect
+2024-05-05 15:45:23,087 - root - INFO -     InvalidHeaderDefect
+2024-05-05 15:45:23,087 - root - INFO - Subclass: <class 'email.errors.InvalidHeaderDefect'>,level:3
+2024-05-05 15:45:23,087 - root - INFO -     HeaderMissingRequiredValue
+2024-05-05 15:45:23,087 - root - INFO - Subclass: <class 'email.errors.HeaderMissingRequiredValue'>,level:3
+2024-05-05 15:45:23,087 - root - INFO -     NonPrintableDefect
+2024-05-05 15:45:23,087 - root - INFO - Subclass: <class 'email.errors.NonPrintableDefect'>,level:3
+2024-05-05 15:45:23,087 - root - INFO -     ObsoleteHeaderDefect
+2024-05-05 15:45:23,087 - root - INFO - Subclass: <class 'email.errors.ObsoleteHeaderDefect'>,level:3
+2024-05-05 15:45:23,087 - root - INFO -     NonASCIILocalPartDefect
+2024-05-05 15:45:23,087 - root - INFO - Subclass: <class 'email.errors.NonASCIILocalPartDefect'>,level:3
+2024-05-05 15:45:23,087 - root - INFO -     InvalidDateDefect
+2024-05-05 15:45:23,087 - root - INFO - Subclass: <class 'email.errors.InvalidDateDefect'>,level:3
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'email.errors.HeaderDefect'>,level:2
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'email.errors.MessageDefect'>,level:1
+2024-05-05 15:45:23,088 - root - INFO -   ClassNotFound
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'pygments.util.ClassNotFound'>,level:1
+2024-05-05 15:45:23,088 - root - INFO -   ClipboardEmpty
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'IPython.lib.clipboard.ClipboardEmpty'>,level:1
+2024-05-05 15:45:23,088 - root - INFO -   MacroToEdit
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'IPython.core.magics.code.MacroToEdit'>,level:1
+2024-05-05 15:45:23,088 - root - INFO -   InvalidVersion
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'packaging.version.InvalidVersion'>,level:1
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'ValueError'>,level:0
+2024-05-05 15:45:23,088 - root - INFO -  Warning
+2024-05-05 15:45:23,088 - root - INFO -   BytesWarning
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'BytesWarning'>,level:1
+2024-05-05 15:45:23,088 - root - INFO -   DeprecationWarning
+2024-05-05 15:45:23,088 - root - INFO -    ProvisionalWarning
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'IPython.core.interactiveshell.ProvisionalWarning'>,level:2
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'DeprecationWarning'>,level:1
+2024-05-05 15:45:23,088 - root - INFO -   EncodingWarning
+2024-05-05 15:45:23,088 - root - INFO - Subclass: <class 'EncodingWarning'>,level:1
+2024-05-05 15:45:23,088 - root - INFO -   FutureWarning
+2024-05-05 15:45:23,090 - root - INFO -    ProvisionalCompleterWarning
+2024-05-05 15:45:23,090 - root - INFO - Subclass: <class 'IPython.core.completer.ProvisionalCompleterWarning'>,level:2
+2024-05-05 15:45:23,090 - root - INFO - Subclass: <class 'FutureWarning'>,level:1
+2024-05-05 15:45:23,090 - root - INFO -   ImportWarning
+2024-05-05 15:45:23,090 - root - INFO - Subclass: <class 'ImportWarning'>,level:1
+2024-05-05 15:45:23,090 - root - INFO -   PendingDeprecationWarning
+2024-05-05 15:45:23,090 - root - INFO - Subclass: <class 'PendingDeprecationWarning'>,level:1
+2024-05-05 15:45:23,090 - root - INFO -   ResourceWarning
+2024-05-05 15:45:23,090 - root - INFO - Subclass: <class 'ResourceWarning'>,level:1
+2024-05-05 15:45:23,090 - root - INFO -   RuntimeWarning
+2024-05-05 15:45:23,090 - root - INFO -    ProactorSelectorThreadWarning
+2024-05-05 15:45:23,090 - root - INFO - Subclass: <class 'zmq.asyncio.ProactorSelectorThreadWarning'>,level:2
+2024-05-05 15:45:23,090 - root - INFO -    UnknownTimezoneWarning
+2024-05-05 15:45:23,090 - root - INFO - Subclass: <class 'dateutil.parser._parser.UnknownTimezoneWarning'>,level:2
+2024-05-05 15:45:23,090 - root - INFO - Subclass: <class 'RuntimeWarning'>,level:1
+2024-05-05 15:45:23,091 - root - INFO -   SyntaxWarning
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'SyntaxWarning'>,level:1
+2024-05-05 15:45:23,091 - root - INFO -   UnicodeWarning
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'UnicodeWarning'>,level:1
+2024-05-05 15:45:23,091 - root - INFO -   UserWarning
+2024-05-05 15:45:23,091 - root - INFO -    GetPassWarning
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'getpass.GetPassWarning'>,level:2
+2024-05-05 15:45:23,091 - root - INFO -    FormatterWarning
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'IPython.core.formatters.FormatterWarning'>,level:2
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'UserWarning'>,level:1
+2024-05-05 15:45:23,091 - root - INFO -   DeprecatedTzFormatWarning
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'dateutil.tz.DeprecatedTzFormatWarning'>,level:1
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'Warning'>,level:0
+2024-05-05 15:45:23,091 - root - INFO -  ExceptionGroup
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'ExceptionGroup'>,level:0
+2024-05-05 15:45:23,091 - root - INFO -  _OptionError
+2024-05-05 15:45:23,091 - root - INFO - Subclass: <class 'warnings._OptionError'>,level:0
+2024-05-05 15:45:23,091 - root - INFO -  _Error
+2024-05-05 15:45:23,092 - root - INFO - Subclass: <class 'runpy._Error'>,level:0
+2024-05-05 15:45:23,092 - root - INFO -  error
+2024-05-05 15:45:23,092 - root - INFO - Subclass: <class 're.error'>,level:0
+2024-05-05 15:45:23,092 - root - INFO -  Error
+2024-05-05 15:45:23,092 - root - INFO - Subclass: <class 'locale.Error'>,level:0
+2024-05-05 15:45:23,092 - root - INFO -  SubprocessError
+2024-05-05 15:45:23,092 - root - INFO -   CalledProcessError
+2024-05-05 15:45:23,092 - root - INFO - Subclass: <class 'subprocess.CalledProcessError'>,level:1
+2024-05-05 15:45:23,092 - root - INFO -   TimeoutExpired
+2024-05-05 15:45:23,092 - root - INFO - Subclass: <class 'subprocess.TimeoutExpired'>,level:1
+2024-05-05 15:45:23,092 - root - INFO - Subclass: <class 'subprocess.SubprocessError'>,level:0
+2024-05-05 15:45:23,092 - root - INFO -  ZMQBaseError
+2024-05-05 15:45:23,092 - root - INFO -   ZMQError
+2024-05-05 15:45:23,092 - root - INFO -    ContextTerminated
+2024-05-05 15:45:23,092 - root - INFO - Subclass: <class 'zmq.error.ContextTerminated'>,level:2
+2024-05-05 15:45:23,092 - root - INFO -    Again
+2024-05-05 15:45:23,093 - root - INFO - Subclass: <class 'zmq.error.Again'>,level:2
+2024-05-05 15:45:23,093 - root - INFO -    InterruptedSystemCall
+2024-05-05 15:45:23,093 - root - INFO - Subclass: <class 'zmq.error.InterruptedSystemCall'>,level:2
+2024-05-05 15:45:23,093 - root - INFO - Subclass: <class 'zmq.error.ZMQError'>,level:1
+2024-05-05 15:45:23,093 - root - INFO -   ZMQBindError
+2024-05-05 15:45:23,093 - root - INFO - Subclass: <class 'zmq.error.ZMQBindError'>,level:1
+2024-05-05 15:45:23,093 - root - INFO -   NotDone
+2024-05-05 15:45:23,093 - root - INFO - Subclass: <class 'zmq.error.NotDone'>,level:1
+2024-05-05 15:45:23,093 - root - INFO - Subclass: <class 'zmq.error.ZMQBaseError'>,level:0
+2024-05-05 15:45:23,093 - root - INFO -  Error
+2024-05-05 15:45:23,093 - root - INFO - Subclass: <class 'copy.Error'>,level:0
+2024-05-05 15:45:23,093 - root - INFO -  error
+2024-05-05 15:45:23,093 - root - INFO - Subclass: <class 'struct.error'>,level:0
+2024-05-05 15:45:23,093 - root - INFO -  PickleError
+2024-05-05 15:45:23,094 - root - INFO -   PicklingError
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class '_pickle.PicklingError'>,level:1
+2024-05-05 15:45:23,094 - root - INFO -   UnpicklingError
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class '_pickle.UnpicklingError'>,level:1
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class '_pickle.PickleError'>,level:0
+2024-05-05 15:45:23,094 - root - INFO -  _Stop
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class 'pickle._Stop'>,level:0
+2024-05-05 15:45:23,094 - root - INFO -  TokenError
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class 'tokenize.TokenError'>,level:0
+2024-05-05 15:45:23,094 - root - INFO -  StopTokenizing
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class 'tokenize.StopTokenizing'>,level:0
+2024-05-05 15:45:23,094 - root - INFO -  Error
+2024-05-05 15:45:23,094 - root - INFO -   CancelledError
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class 'concurrent.futures._base.CancelledError'>,level:1
+2024-05-05 15:45:23,094 - root - INFO -   InvalidStateError
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class 'concurrent.futures._base.InvalidStateError'>,level:1
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class 'concurrent.futures._base.Error'>,level:0
+2024-05-05 15:45:23,094 - root - INFO -  _GiveupOnSendfile
+2024-05-05 15:45:23,094 - root - INFO - Subclass: <class 'socket._GiveupOnSendfile'>,level:0
+2024-05-05 15:45:23,095 - root - INFO -  Incomplete
+2024-05-05 15:45:23,095 - root - INFO - Subclass: <class 'binascii.Incomplete'>,level:0
+2024-05-05 15:45:23,095 - root - INFO -  ClassFoundException
+2024-05-05 15:45:23,095 - root - INFO - Subclass: <class 'inspect.ClassFoundException'>,level:0
+2024-05-05 15:45:23,095 - root - INFO -  EndOfBlock
+2024-05-05 15:45:23,095 - root - INFO - Subclass: <class 'inspect.EndOfBlock'>,level:0
+2024-05-05 15:45:23,095 - root - INFO -  InvalidStateError
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class 'asyncio.exceptions.InvalidStateError'>,level:0
+2024-05-05 15:45:23,096 - root - INFO -  LimitOverrunError
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class 'asyncio.exceptions.LimitOverrunError'>,level:0
+2024-05-05 15:45:23,096 - root - INFO -  QueueEmpty
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class 'asyncio.queues.QueueEmpty'>,level:0
+2024-05-05 15:45:23,096 - root - INFO -  QueueFull
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class 'asyncio.queues.QueueFull'>,level:0
+2024-05-05 15:45:23,096 - root - INFO -  error
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class 'zlib.error'>,level:0
+2024-05-05 15:45:23,096 - root - INFO -  LZMAError
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class '_lzma.LZMAError'>,level:0
+2024-05-05 15:45:23,096 - root - INFO -  RegistryError
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class 'shutil.RegistryError'>,level:0
+2024-05-05 15:45:23,096 - root - INFO -  _GiveupOnFastCopy
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class 'shutil._GiveupOnFastCopy'>,level:0
+2024-05-05 15:45:23,096 - root - INFO -  TraitError
+2024-05-05 15:45:23,096 - root - INFO - Subclass: <class 'traitlets.traitlets.TraitError'>,level:0
+2024-05-05 15:45:23,097 - root - INFO -  Empty
+2024-05-05 15:45:23,097 - root - INFO - Subclass: <class '_queue.Empty'>,level:0
+2024-05-05 15:45:23,097 - root - INFO -  Full
+2024-05-05 15:45:23,097 - root - INFO - Subclass: <class 'queue.Full'>,level:0
+2024-05-05 15:45:23,097 - root - INFO -  ArgumentError
+2024-05-05 15:45:23,097 - root - INFO - Subclass: <class 'ctypes.ArgumentError'>,level:0
+2024-05-05 15:45:23,097 - root - INFO -  COMError
+2024-05-05 15:45:23,097 - root - INFO - Subclass: <class '_ctypes.COMError'>,level:0
+2024-05-05 15:45:23,097 - root - INFO -  ReturnValueIgnoredError
+2024-05-05 15:45:23,097 - root - INFO - Subclass: <class 'tornado.concurrent.ReturnValueIgnoredError'>,level:0
+2024-05-05 15:45:23,097 - root - INFO -  ArgumentError
+2024-05-05 15:45:23,097 - root - INFO - Subclass: <class 'argparse.ArgumentError'>,level:0
+2024-05-05 15:45:23,097 - root - INFO -  ArgumentTypeError
+2024-05-05 15:45:23,097 - root - INFO - Subclass: <class 'argparse.ArgumentTypeError'>,level:0
+2024-05-05 15:45:23,097 - root - INFO -  ConfigError
+2024-05-05 15:45:23,097 - root - INFO -   ConfigLoaderError
+2024-05-05 15:45:23,097 - root - INFO -    ArgumentError
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'traitlets.config.loader.ArgumentError'>,level:2
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'traitlets.config.loader.ConfigLoaderError'>,level:1
+2024-05-05 15:45:23,098 - root - INFO -   ConfigFileNotFound
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'traitlets.config.loader.ConfigFileNotFound'>,level:1
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'traitlets.config.loader.ConfigError'>,level:0
+2024-05-05 15:45:23,098 - root - INFO -  ConfigurableError
+2024-05-05 15:45:23,098 - root - INFO -   MultipleInstanceError
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'traitlets.config.configurable.MultipleInstanceError'>,level:1
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'traitlets.config.configurable.ConfigurableError'>,level:0
+2024-05-05 15:45:23,098 - root - INFO -  ApplicationError
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'traitlets.config.application.ApplicationError'>,level:0
+2024-05-05 15:45:23,098 - root - INFO -  InvalidPortNumber
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'jupyter_client.channels.InvalidPortNumber'>,level:0
+2024-05-05 15:45:23,098 - root - INFO -  NoIPAddresses
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class 'jupyter_client.localinterfaces.NoIPAddresses'>,level:0
+2024-05-05 15:45:23,098 - root - INFO -  Error
+2024-05-05 15:45:23,098 - root - INFO - Subclass: <class '_csv.Error'>,level:0
+2024-05-05 15:45:23,098 - root - INFO -  BadZipFile
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'zipfile.BadZipFile'>,level:0
+2024-05-05 15:45:23,099 - root - INFO -  LargeZipFile
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'zipfile.LargeZipFile'>,level:0
+2024-05-05 15:45:23,099 - root - INFO -  MessageError
+2024-05-05 15:45:23,099 - root - INFO -   MessageParseError
+2024-05-05 15:45:23,099 - root - INFO -    HeaderParseError
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'email.errors.HeaderParseError'>,level:2
+2024-05-05 15:45:23,099 - root - INFO -    BoundaryError
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'email.errors.BoundaryError'>,level:2
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'email.errors.MessageParseError'>,level:1
+2024-05-05 15:45:23,099 - root - INFO -   MultipartConversionError
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'email.errors.MultipartConversionError'>,level:1
+2024-05-05 15:45:23,099 - root - INFO -   CharsetError
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'email.errors.CharsetError'>,level:1
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'email.errors.MessageError'>,level:0
+2024-05-05 15:45:23,099 - root - INFO -  TraversalError
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'importlib.resources.abc.TraversalError'>,level:0
+2024-05-05 15:45:23,099 - root - INFO -  DuplicateKernelError
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'jupyter_client.multikernelmanager.DuplicateKernelError'>,level:0
+2024-05-05 15:45:23,099 - root - INFO -  ErrorDuringImport
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'pydoc.ErrorDuringImport'>,level:0
+2024-05-05 15:45:23,099 - root - INFO -  NotOneValueFound
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'executing.executing.NotOneValueFound'>,level:0
+2024-05-05 15:45:23,099 - root - INFO -  KnownIssue
+2024-05-05 15:45:23,099 - root - INFO - Subclass: <class 'executing._exceptions.KnownIssue'>,level:0
+2024-05-05 15:45:23,099 - root - INFO -  VerifierFailure
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'executing._exceptions.VerifierFailure'>,level:0
+2024-05-05 15:45:23,100 - root - INFO -  CannotEval
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'pure_eval.utils.CannotEval'>,level:0
+2024-05-05 15:45:23,100 - root - INFO -  OptionError
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'pygments.util.OptionError'>,level:0
+2024-05-05 15:45:23,100 - root - INFO -  BdbQuit
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'bdb.BdbQuit'>,level:0
+2024-05-05 15:45:23,100 - root - INFO -  Restart
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'pdb.Restart'>,level:0
+2024-05-05 15:45:23,100 - root - INFO -  FindCmdError
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'IPython.utils.process.FindCmdError'>,level:0
+2024-05-05 15:45:23,100 - root - INFO -  HomeDirError
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'IPython.utils.path.HomeDirError'>,level:0
+2024-05-05 15:45:23,100 - root - INFO -  ProfileDirError
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'IPython.core.profiledir.ProfileDirError'>,level:0
+2024-05-05 15:45:23,100 - root - INFO -  IPythonCoreError
+2024-05-05 15:45:23,100 - root - INFO -   TryNext
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'IPython.core.error.TryNext'>,level:1
+2024-05-05 15:45:23,100 - root - INFO -   UsageError
+2024-05-05 15:45:23,100 - root - INFO - Subclass: <class 'IPython.core.error.UsageError'>,level:1
+2024-05-05 15:45:23,101 - root - INFO -   StdinNotImplementedError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'IPython.core.error.StdinNotImplementedError'>,level:1
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'IPython.core.error.IPythonCoreError'>,level:0
+2024-05-05 15:45:23,101 - root - INFO -  InputRejected
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'IPython.core.error.InputRejected'>,level:0
+2024-05-05 15:45:23,101 - root - INFO -  GetoptError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'getopt.GetoptError'>,level:0
+2024-05-05 15:45:23,101 - root - INFO -  ErrorToken
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'pygments.filters.ErrorToken'>,level:0
+2024-05-05 15:45:23,101 - root - INFO -  PrefilterError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'IPython.core.prefilter.PrefilterError'>,level:0
+2024-05-05 15:45:23,101 - root - INFO -  AliasError
+2024-05-05 15:45:23,101 - root - INFO -   InvalidAliasError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'IPython.core.alias.InvalidAliasError'>,level:1
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'IPython.core.alias.AliasError'>,level:0
+2024-05-05 15:45:23,101 - root - INFO -  Error
+2024-05-05 15:45:23,101 - root - INFO -   InterfaceError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'sqlite3.InterfaceError'>,level:1
+2024-05-05 15:45:23,101 - root - INFO -   DatabaseError
+2024-05-05 15:45:23,101 - root - INFO -    InternalError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'sqlite3.InternalError'>,level:2
+2024-05-05 15:45:23,101 - root - INFO -    OperationalError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'sqlite3.OperationalError'>,level:2
+2024-05-05 15:45:23,101 - root - INFO -    ProgrammingError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'sqlite3.ProgrammingError'>,level:2
+2024-05-05 15:45:23,101 - root - INFO -    IntegrityError
+2024-05-05 15:45:23,101 - root - INFO - Subclass: <class 'sqlite3.IntegrityError'>,level:2
+2024-05-05 15:45:23,102 - root - INFO -    DataError
+2024-05-05 15:45:23,102 - root - INFO - Subclass: <class 'sqlite3.DataError'>,level:2
+2024-05-05 15:45:23,102 - root - INFO -    NotSupportedError
+2024-05-05 15:45:23,102 - root - INFO - Subclass: <class 'sqlite3.NotSupportedError'>,level:2
+2024-05-05 15:45:23,102 - root - INFO - Subclass: <class 'sqlite3.DatabaseError'>,level:1
+2024-05-05 15:45:23,102 - root - INFO - Subclass: <class 'sqlite3.Error'>,level:0
+2024-05-05 15:45:23,102 - root - INFO -  Warning
+2024-05-05 15:45:23,102 - root - INFO - Subclass: <class 'sqlite3.Warning'>,level:0
+2024-05-05 15:45:23,102 - root - INFO -  SpaceInInput
+2024-05-05 15:45:23,102 - root - INFO - Subclass: <class 'IPython.core.interactiveshell.SpaceInInput'>,level:0
+2024-05-05 15:45:23,102 - root - INFO -  DOMException
+2024-05-05 15:45:23,103 - root - INFO -   IndexSizeErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.IndexSizeErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   DomstringSizeErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.DomstringSizeErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   HierarchyRequestErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.HierarchyRequestErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   WrongDocumentErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.WrongDocumentErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   InvalidCharacterErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.InvalidCharacterErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   NoDataAllowedErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.NoDataAllowedErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   NoModificationAllowedErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.NoModificationAllowedErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   NotFoundErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.NotFoundErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   NotSupportedErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.NotSupportedErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   InuseAttributeErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.InuseAttributeErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   InvalidStateErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.InvalidStateErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   SyntaxErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.SyntaxErr'>,level:1
+2024-05-05 15:45:23,103 - root - INFO -   InvalidModificationErr
+2024-05-05 15:45:23,103 - root - INFO - Subclass: <class 'xml.dom.InvalidModificationErr'>,level:1
+2024-05-05 15:45:23,104 - root - INFO -   NamespaceErr
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'xml.dom.NamespaceErr'>,level:1
+2024-05-05 15:45:23,104 - root - INFO -   InvalidAccessErr
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'xml.dom.InvalidAccessErr'>,level:1
+2024-05-05 15:45:23,104 - root - INFO -   ValidationErr
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'xml.dom.ValidationErr'>,level:1
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'xml.dom.DOMException'>,level:0
+2024-05-05 15:45:23,104 - root - INFO -  ValidationError
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'prompt_toolkit.validation.ValidationError'>,level:0
+2024-05-05 15:45:23,104 - root - INFO -  EditReadOnlyBuffer
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'prompt_toolkit.buffer.EditReadOnlyBuffer'>,level:0
+2024-05-05 15:45:23,104 - root - INFO -  _Retry
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'prompt_toolkit.buffer._Retry'>,level:0
+2024-05-05 15:45:23,104 - root - INFO -  InvalidLayoutError
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'prompt_toolkit.layout.layout.InvalidLayoutError'>,level:0
+2024-05-05 15:45:23,104 - root - INFO -  HeightIsUnknownError
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'prompt_toolkit.renderer.HeightIsUnknownError'>,level:0
+2024-05-05 15:45:23,104 - root - INFO -  GuardRejection
+2024-05-05 15:45:23,104 - root - INFO - Subclass: <class 'IPython.core.guarded_eval.GuardRejection'>,level:0
+2024-05-05 15:45:23,104 - root - INFO -  ParserSyntaxError
+2024-05-05 15:45:23,105 - root - INFO - Subclass: <class 'parso.parser.ParserSyntaxError'>,level:0
+2024-05-05 15:45:23,105 - root - INFO -  InternalParseError
+2024-05-05 15:45:23,105 - root - INFO - Subclass: <class 'parso.parser.InternalParseError'>,level:0
+2024-05-05 15:45:23,105 - root - INFO -  _PositionUpdatingFinished
+2024-05-05 15:45:23,105 - root - INFO - Subclass: <class 'parso.python.diff._PositionUpdatingFinished'>,level:0
+2024-05-05 15:45:23,105 - root - INFO -  SimpleGetItemNotFound
+2024-05-05 15:45:23,105 - root - INFO - Subclass: <class 'jedi.inference.helpers.SimpleGetItemNotFound'>,level:0
+2024-05-05 15:45:23,105 - root - INFO -  UncaughtAttributeError
+2024-05-05 15:45:23,105 - root - INFO - Subclass: <class 'jedi.inference.utils.UncaughtAttributeError'>,level:0
+2024-05-05 15:45:23,105 - root - INFO -  HasNoContext
+2024-05-05 15:45:23,105 - root - INFO - Subclass: <class 'jedi.inference.base_value.HasNoContext'>,level:0
+2024-05-05 15:45:23,105 - root - INFO -  ParamIssue
+2024-05-05 15:45:23,105 - root - INFO - Subclass: <class 'jedi.inference.arguments.ParamIssue'>,level:0
+2024-05-05 15:45:23,105 - root - INFO -  _JediError
+2024-05-05 15:45:23,105 - root - INFO -   InternalError
+2024-05-05 15:45:23,106 - root - INFO - Subclass: <class 'jedi.api.exceptions.InternalError'>,level:1
+2024-05-05 15:45:23,106 - root - INFO -   WrongVersion
+2024-05-05 15:45:23,106 - root - INFO - Subclass: <class 'jedi.api.exceptions.WrongVersion'>,level:1
+2024-05-05 15:45:23,106 - root - INFO -   RefactoringError
+2024-05-05 15:45:23,106 - root - INFO - Subclass: <class 'jedi.api.exceptions.RefactoringError'>,level:1
+2024-05-05 15:45:23,106 - root - INFO - Subclass: <class 'jedi.api.exceptions._JediError'>,level:0
+2024-05-05 15:45:23,106 - root - INFO -  OnErrorLeaf
+2024-05-05 15:45:23,106 - root - INFO - Subclass: <class 'jedi.api.helpers.OnErrorLeaf'>,level:0
+2024-05-05 15:45:23,106 - root - INFO -  InvalidPythonEnvironment
+2024-05-05 15:45:23,106 - root - INFO - Subclass: <class 'jedi.api.environment.InvalidPythonEnvironment'>,level:0
+2024-05-05 15:45:23,106 - root - INFO -  HTTPException
+2024-05-05 15:45:23,106 - root - INFO -   NotConnected
+2024-05-05 15:45:23,106 - root - INFO - Subclass: <class 'http.client.NotConnected'>,level:1
+2024-05-05 15:45:23,106 - root - INFO -   InvalidURL
+2024-05-05 15:45:23,106 - root - INFO - Subclass: <class 'http.client.InvalidURL'>,level:1
+2024-05-05 15:45:23,106 - root - INFO -   UnknownProtocol
+2024-05-05 15:45:23,107 - root - INFO - Subclass: <class 'http.client.UnknownProtocol'>,level:1
+2024-05-05 15:45:23,107 - root - INFO -   UnknownTransferEncoding
+2024-05-05 15:45:23,107 - root - INFO - Subclass: <class 'http.client.UnknownTransferEncoding'>,level:1
+2024-05-05 15:45:23,107 - root - INFO -   UnimplementedFileMode
+2024-05-05 15:45:23,107 - root - INFO - Subclass: <class 'http.client.UnimplementedFileMode'>,level:1
+2024-05-05 15:45:23,107 - root - INFO -   IncompleteRead
+2024-05-05 15:45:23,107 - root - INFO - Subclass: <class 'http.client.IncompleteRead'>,level:1
+2024-05-05 15:45:23,107 - root - INFO -   ImproperConnectionState
+2024-05-05 15:45:23,107 - root - INFO -    CannotSendRequest
+2024-05-05 15:45:23,107 - root - INFO - Subclass: <class 'http.client.CannotSendRequest'>,level:2
+2024-05-05 15:45:23,107 - root - INFO -    CannotSendHeader
+2024-05-05 15:45:23,107 - root - INFO - Subclass: <class 'http.client.CannotSendHeader'>,level:2
+2024-05-05 15:45:23,107 - root - INFO -    ResponseNotReady
+2024-05-05 15:45:23,107 - root - INFO - Subclass: <class 'http.client.ResponseNotReady'>,level:2
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'http.client.ImproperConnectionState'>,level:1
+2024-05-05 15:45:23,108 - root - INFO -   BadStatusLine
+2024-05-05 15:45:23,108 - root - INFO -    RemoteDisconnected
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'http.client.RemoteDisconnected'>,level:2
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'http.client.BadStatusLine'>,level:1
+2024-05-05 15:45:23,108 - root - INFO -   LineTooLong
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'http.client.LineTooLong'>,level:1
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'http.client.HTTPException'>,level:0
+2024-05-05 15:45:23,108 - root - INFO -  InteractivelyDefined
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'IPython.core.magics.code.InteractivelyDefined'>,level:0
+2024-05-05 15:45:23,108 - root - INFO -  KillEmbedded
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'IPython.terminal.embed.KillEmbedded'>,level:0
+2024-05-05 15:45:23,108 - root - INFO -  Error
+2024-05-05 15:45:23,108 - root - INFO -   NoSuchProcess
+2024-05-05 15:45:23,108 - root - INFO -    ZombieProcess
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'psutil.ZombieProcess'>,level:2
+2024-05-05 15:45:23,108 - root - INFO - Subclass: <class 'psutil.NoSuchProcess'>,level:1
+2024-05-05 15:45:23,109 - root - INFO -   AccessDenied
+2024-05-05 15:45:23,109 - root - INFO - Subclass: <class 'psutil.AccessDenied'>,level:1
+2024-05-05 15:45:23,109 - root - INFO -   TimeoutExpired
+2024-05-05 15:45:23,109 - root - INFO - Subclass: <class 'psutil.TimeoutExpired'>,level:1
+2024-05-05 15:45:23,109 - root - INFO - Subclass: <class 'psutil.Error'>,level:0
+2024-05-05 15:45:23,109 - root - INFO -  Error
+2024-05-05 15:45:23,109 - root - INFO - Subclass: <class '_psutil_windows.Error'>,level:0
+2024-05-05 15:45:23,109 - root - INFO -  TimeoutExpired
+2024-05-05 15:45:23,109 - root - INFO - Subclass: <class '_psutil_windows.TimeoutExpired'>,level:0
+2024-05-05 15:45:23,109 - root - INFO -  TimeoutAbandoned
+2024-05-05 15:45:23,109 - root - INFO - Subclass: <class '_psutil_windows.TimeoutAbandoned'>,level:0
+2024-05-05 15:45:23,109 - root - INFO -  KeyReuseError
+2024-05-05 15:45:23,109 - root - INFO - Subclass: <class 'tornado.gen.KeyReuseError'>,level:0
+2024-05-05 15:45:23,109 - root - INFO -  UnknownKeyError
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class 'tornado.gen.UnknownKeyError'>,level:0
+2024-05-05 15:45:23,110 - root - INFO -  LeakedCallbackError
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class 'tornado.gen.LeakedCallbackError'>,level:0
+2024-05-05 15:45:23,110 - root - INFO -  BadYieldError
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class 'tornado.gen.BadYieldError'>,level:0
+2024-05-05 15:45:23,110 - root - INFO -  ReturnValueIgnoredError
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class 'tornado.gen.ReturnValueIgnoredError'>,level:0
+2024-05-05 15:45:23,110 - root - INFO -  Return
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class 'tornado.gen.Return'>,level:0
+2024-05-05 15:45:23,110 - root - INFO -  QueueEmpty
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class 'tornado.queues.QueueEmpty'>,level:0
+2024-05-05 15:45:23,110 - root - INFO -  QueueFull
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class 'tornado.queues.QueueFull'>,level:0
+2024-05-05 15:45:23,110 - root - INFO -  DebuggerInitializationError
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class '_pydev_bundle._pydev_saved_modules.DebuggerInitializationError'>,level:0
+2024-05-05 15:45:23,110 - root - INFO -  ExpatError
+2024-05-05 15:45:23,110 - root - INFO - Subclass: <class 'xml.parsers.expat.ExpatError'>,level:0
+2024-05-05 15:45:23,111 - root - INFO -  Error
+2024-05-05 15:45:23,111 - root - INFO -   ProtocolError
+2024-05-05 15:45:23,111 - root - INFO - Subclass: <class 'xmlrpc.client.ProtocolError'>,level:1
+2024-05-05 15:45:23,111 - root - INFO -   ResponseError
+2024-05-05 15:45:23,111 - root - INFO - Subclass: <class 'xmlrpc.client.ResponseError'>,level:1
+2024-05-05 15:45:23,111 - root - INFO -   Fault
+2024-05-05 15:45:23,111 - root - INFO - Subclass: <class 'xmlrpc.client.Fault'>,level:1
+2024-05-05 15:45:23,111 - root - INFO - Subclass: <class 'xmlrpc.client.Error'>,level:0
+2024-05-05 15:45:23,111 - root - INFO -  _Error
+2024-05-05 15:45:23,111 - root - INFO - Subclass: <class '_pydevd_bundle.pydevd_runpy._Error'>,level:0
+2024-05-05 15:45:23,111 - root - INFO -  UnableToResolveVariableException
+2024-05-05 15:45:23,111 - root - INFO - Subclass: <class '_pydevd_bundle.pydevd_resolver.UnableToResolveVariableException'>,level:0
+2024-05-05 15:45:23,111 - root - INFO -  InvalidTypeInArgsException
+2024-05-05 15:45:23,111 - root - INFO - Subclass: <class '_pydev_bundle.pydev_monkey.InvalidTypeInArgsException'>,level:0
+2024-05-05 15:45:23,111 - root - INFO -  TransactionLimitExceeded
+2024-05-05 15:45:23,112 - root - INFO - Subclass: <class '__main__.TransactionLimitExceeded'>,level:0
+2024-05-05 15:45:23,131 - root - INFO - This is start of Question 3
+2024-05-05 15:45:23,132 - root - ERROR - Exception occured and Handled : division by zero
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\3816145219.py", line 5, in <module>
+    print(a/0)
+          ~^~
+ZeroDivisionError: division by zero
+2024-05-05 15:45:23,132 - root - INFO - Example 1 of Question 3 Completed
+2024-05-05 15:45:23,172 - root - INFO - Example 2 Overflow error of Question 3 Started
+2024-05-05 15:45:23,172 - root - INFO - Error Occured and Handled : math range error
+2024-05-05 15:45:23,205 - root - INFO - This is start of Key Error Example
+2024-05-05 15:45:23,206 - root - ERROR - Error Occured and Handled Key Error : 'key3'
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\3771877001.py", line 5, in <module>
+    d['key3']
+    ~^^^^^^^^
+KeyError: 'key3'
+2024-05-05 15:45:23,206 - root - INFO - This is end of Key Error Example
+2024-05-05 15:45:23,224 - root - INFO - This is start of Index error example
+2024-05-05 15:45:23,225 - root - ERROR - Index error occured and Handled : list index out of range
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\2041739806.py", line 5, in <module>
+    l[21]
+    ~^^^^
+IndexError: list index out of range
+2024-05-05 15:45:23,225 - root - INFO - Index Error Example complete
+2024-05-05 15:45:23,240 - root - INFO - This is start of example for ImportError
+2024-05-05 15:45:23,242 - root - ERROR - ImportError Occured and handled : No module named 'calculus'
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\337649070.py", line 4, in <module>
+    import calculus
+ModuleNotFoundError: No module named 'calculus'
+2024-05-05 15:45:23,243 - root - INFO - ImportError Example Complete
+2024-05-05 15:45:23,274 - root - INFO - This is start of example for ModuleNotFoundError
+2024-05-05 15:45:23,288 - root - ERROR - ModuleNotFoundError Occured and handled : No module named 'calculus'
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\203045280.py", line 4, in <module>
+    import calculus
+ModuleNotFoundError: No module named 'calculus'
+2024-05-05 15:45:23,289 - root - INFO - ModuleNotFound Example Complete
+2024-05-05 15:45:23,408 - root - INFO - This is start of divide function
+2024-05-05 15:45:23,408 - root - INFO - Try Block executed
+2024-05-05 15:45:23,408 - root - INFO - Else Block Executed
+2024-05-05 15:45:23,408 - root - INFO - This is end of divide function
+2024-05-05 15:45:23,444 - root - INFO - This is start of divide function
+2024-05-05 15:45:23,444 - root - ERROR - Zero Division Error occured and Handled : division by zero
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\396015216.py", line 5, in divide
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
+2024-05-05 15:45:23,445 - root - INFO - This is end of divide function
+2024-05-05 15:45:23,445 - root - ERROR - Error occured and Handled : Cannot divide by zero
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\396015216.py", line 5, in divide
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\2464696918.py", line 3, in <module>
+    print(divide(43,0))
+      ^^^^^^^^^^^^
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\396015216.py", line 9, in divide
+    raise ValueError("Cannot divide by zero") from e
+ValueError: Cannot divide by zero
+2024-05-05 15:45:23,469 - root - INFO - This is start of divide function
+2024-05-05 15:45:23,469 - root - ERROR - Type Error Occured and Handled : unsupported operand type(s) for /: 'int' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\396015216.py", line 5, in divide
+    result = a / b
+             ~~^~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2024-05-05 15:45:23,470 - root - INFO - This is end of divide function
+2024-05-05 15:45:23,470 - root - ERROR - Error occured and Handled : Both arguments must be numbers
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\396015216.py", line 5, in divide
+    result = a / b
+             ~~^~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\158202597.py", line 3, in <module>
+    print(divide(43,'example'))
+      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pratik\AppData\Local\Temp\ipykernel_41736\396015216.py", line 12, in divide
+    raise ValueError("Both arguments must be numbers") from e
+ValueError: Both arguments must be numbers
